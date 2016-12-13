@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
+
 namespace Project1.Controllers
 {
     public class HomeController : Controller
@@ -31,5 +32,6 @@ namespace Project1.Controllers
         {
             return View();
         }
+
     }
 }
